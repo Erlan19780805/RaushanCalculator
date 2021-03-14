@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat',sans-serif;
+    background: #adadad;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+.calculator{
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background: rgb(255, 83, 3);
+    padding-left: 20px;
+}
+
+.price,.procent,.poligraph,.benzin{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+input{
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    background-color: rgb(243, 215, 54);
+}
+input:focus{
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    background-color: rgb(243, 215, 54);
+}
+input:active{
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    background-color: rgb(243, 215, 54);
+}
+
+
+.btn-red{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+    background-color: #090909;
+}
+
+.btn{
+    color: #fff;
+    font-size: 24px;
+}
+
+.result{
+    margin-top: -20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    padding-left: 30px;
+    background: rgb(160, 137, 33);
+    height: 120px;
+    width: 100%;
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="calculator">
+    <p class="price">Цена Заказа : <input type="text" id="n1"></p>
+    <p class="procent">Процент ресторана : <input type="text" id="n2"></p>
+    <p class="poligraph">Полигрофия : <input type="text" id="n3"></p>
+    <p class="benzin">Бензин : <input type="text" id="n4"></p>
+    <button onclick="procent()" class="btn btn-red">Вычесть</button>
+    </div>
+
+
+    <div class="result">
+    <div class="div"><p class="restaraunt">Сколько ресторану : <span id="Restoraunt"></span> тг</p></div>
+    
+    <div class="div1"><p class="pribil">Чистый доход : <span id="Out"></span> тг</p></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
